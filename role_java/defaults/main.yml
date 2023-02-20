@@ -1,2 +1,6 @@
 ---
-# defaults file for role_java
+# defaults file for java_app
+war_folder: /user1/boxfuse-sample-java-war-hello/target/wwp-1.0.0.war
+repo_url: https://github.com/koddas/war-web-project.git
+repo_folder: /user1/boxfuse-sample-java-war-hello/
+tmp_fold: /tmp/
