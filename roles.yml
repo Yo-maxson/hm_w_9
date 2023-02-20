@@ -1,0 +1,17 @@
+
+---
+
+- name: java app
+  hosts: prod
+  become: yes
+
+  roles:
+   - role_java
+
+
+- name: web-server
+  hosts: web
+  become: yes
+
+  roles:
+   - web
